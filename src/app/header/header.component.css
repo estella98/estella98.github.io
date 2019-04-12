@@ -1,0 +1,53 @@
+/* .navbar-toggler{
+    margin: 7px;
+    display: block;
+    width: 22px;
+    height: 1px;
+    background-color: #cccccc;
+    border-radius: 1px;
+  } */
+
+  .navbar-custom{
+    
+    background-color:transparent;
+    font-family: Lato;
+    font-size: 1.5em
+  }
+
+.navbar-brand{
+  font-family:  #fefefe;
+  font-size: 30px;
+  color: black;
+  filter: blur(0.5px);
+}
+
+#mainNav .nav-link{
+  color: #fefefe;
+  font-family: 'Overpass', sans-serif;
+  font-size: 20px;
+  letter-spacing: 5px;
+  /* margin: auto; */
+  width: 100%;
+  filter: blur(1px);
+  cursor: hidden;
+  overflow: hidden;
+  text-align: right;
+  /* z-index: 3; */
+}
+
+#mainNav .nav-link:hover{
+  color: white;
+  font-family: 'Overpass', sans-serif;
+  font-size: 30px;
+  letter-spacing: 5px;
+  margin: auto;
+  filter: blur(0px);
+  cursor: hidden;
+  overflow: hidden;
+  text-align: right;
+  z-index: 3;
+}
+
+.active{
+  background-color: transparent
+}

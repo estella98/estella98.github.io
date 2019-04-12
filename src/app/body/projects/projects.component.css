@@ -1,0 +1,109 @@
+body{
+    padding-top:  70px;
+    font-family: Lato;
+    background: black;
+    font-size: 18px;
+    line-height: 1.42857143;
+    color: white;
+}
+
+.btn{
+    background-color: #FFB6C1;
+    color : black
+}
+
+.card-title{
+    font-family: serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.project-item{
+    padding: 70px 50px 0px 0px;
+}
+
+.circle_title {
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+}
+h3{
+    font-size:18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: Lato;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color:white;
+    line-height: 1.1;
+}
+
+.circle {
+    margin: 0 auto;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.circle_inner.ione {
+    background-image: url(../../../assets/img/gomuku.jpeg);
+}
+.circle_inner.itwo {
+    background-image: url(../../../assets/img/pitchPerfect.jpg);
+    
+}
+.circle_inner.ithree {
+    background-image: url(../../../assets/img/salealert.jpg);
+}
+
+.circle_inner.ifive {
+    background-image: url(../../../assets/img/qbert.jpg);
+}
+.circle_inner.isix {
+    background-image: url(../../../assets/img/steam.jpg);
+}
+.circle_inner.iseven {
+    background-image: url(../../../assets/img/tequadris.jpg);
+}
+
+ 
+
+
+.circle_inner {
+    border-radius: 50%;
+    background-color: #ddd;
+    overflow: hidden;
+    margin: auto;
+    width: 200px;
+    z-index: 1;
+    transition: all 0.3s;
+    height: 200px;
+    position: relative;
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+.techdisplay {
+    padding-top: 50px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 1.13em;
+}
+
+.content_shadow {
+    width: 200px;
+    box-shadow: 0px 31px 19px -2px grey;
+    height: 20px;
+    border-radius: 70%;
+    position: relative;
+    top: -44px;
+    transition: all 0.3s;
+    z-index: 0;
+    margin: 0 auto;
+}

@@ -1,0 +1,63 @@
+body{
+    padding-top:  300px; 
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    font-family: Lato;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.page-footer {
+    padding-top: 400px;
+    color: white;
+    font-family: Lato;
+}
+.row{
+    padding:0px,0px,0px,400px;
+}
+
+.jumbotron{
+    background: rgba(204, 204, 204, 0.5);
+}
+
+.btn{
+    background-color: #FFC655;
+    color : black
+}
+
+
+h1{
+/* background: url(https://images.pexels.com/photos/1341279/pexels-photo-1341279.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) -80px -80px; */
+  /* -webkit-text-fill-color: transparent; */
+  /* -webkit-background-clip: text; */
+  font-weight: bold;
+  font-size: 100px;
+  font-family: 'Overpass', sans-serif;
+  text-align: center;
+  color: black;
+  
+}
+
+h3{
+    /* position: absolute; */
+    color: #fefefe;
+    font-family: 'Overpass', sans-serif;
+    font-size: 64px;
+    letter-spacing: 20px;
+    width: 100%;
+    filter: blur(2px);
+    cursor: none;
+    overflow: hidden;
+    text-align: center;
+    /* z-index: 3; */
+}
+
+html{
+    height: 100%;
+}
+
