@@ -16,14 +16,15 @@
 
 .navbar-brand{
   font-family:  #fefefe;
+  font-family: 'Georgia', sans-serif;
   font-size: 30px;
-  color: black;
-  filter: blur(0.5px);
+  color: whitesmoke;
+  filter: blur(1px);
 }
 
 #mainNav .nav-link{
   color: #fefefe;
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Georgia', sans-serif;
   font-size: 20px;
   letter-spacing: 5px;
   /* margin: auto; */

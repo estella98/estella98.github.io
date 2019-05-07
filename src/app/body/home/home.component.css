@@ -1,6 +1,6 @@
 body{
     padding-top:  300px; 
-    background: url(background.jpg);
+    background: url(piano1.jpeg);
     background-repeat: no-repeat;
     height: 100%;
     background-position: center;
@@ -37,7 +37,7 @@ h1{
   /* -webkit-background-clip: text; */
   font-weight: bold;
   font-size: 100px;
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Georgia', sans-serif;
   text-align: center;
   color: black;
   
@@ -46,11 +46,12 @@ h1{
 h3{
     /* position: absolute; */
     color: #fefefe;
-    font-family: 'Overpass', sans-serif;
+    /* font-family: 'Overpass', sans-serif; */
+    font-family: "Aclonica", Times, serif;
     font-size: 64px;
     letter-spacing: 20px;
     width: 100%;
-    filter: blur(2px);
+    /* filter: blur(2px); */
     cursor: none;
     overflow: hidden;
     text-align: center;
