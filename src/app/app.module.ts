@@ -10,6 +10,7 @@ import { AboutComponent } from './body/about/about.component';
 import { ProjectsComponent } from './body/projects/projects.component';
 import { RouterModule, Routes} from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { FooterComponent } from './footer/footer.component';
 
 const appRouter: Routes = [
   { path: '', component: HomeComponent},
@@ -25,6 +26,7 @@ const appRouter: Routes = [
     AppComponent,
     HeaderComponent,
     BodyComponent,
+    FooterComponent,
     HomeComponent,
     ResumeComponent,
     AboutComponent,
